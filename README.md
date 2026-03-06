@@ -77,5 +77,3 @@ Designed for CoreCleen Solutions Ltd, Kampala, Uganda.
 
 **Author:** Muhangi Emma Baguma  
 **Contact:** muhangiemmabaguma@gmail.com
-
-```
