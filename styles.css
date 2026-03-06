@@ -86,8 +86,8 @@ button {
    =========================== */
 
 .navbar {
-    background-color: var(--bg-white);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #003D7A;
+    box-shadow: 0 2px 12px rgba(0, 61, 122, 0.15);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -97,13 +97,24 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--spacing-md) var(--spacing-lg);
+    padding: var(--spacing-sm) var(--spacing-lg);
 }
 
 .logo {
     font-size: var(--font-size-2xl);
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--bg-white);
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.logo-img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    opacity: 0.95;
+    border-radius: 4px;
 }
 
 .nav-links {
@@ -113,9 +124,14 @@ button {
 }
 
 .nav-links a {
-    color: var(--text-dark);
+    color: rgba(255, 255, 255, 0.85);
     font-weight: 500;
     position: relative;
+    transition: color var(--transition-fast);
+}
+
+.nav-links a:hover {
+    color: #ffffff;
 }
 
 .nav-links a::after {
@@ -125,7 +141,7 @@ button {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--primary-color);
+    background-color: #ffffff;
     transition: width var(--transition-base);
 }
 
@@ -723,7 +739,7 @@ button {
    =========================== */
 
 .footer {
-    background-color: var(--text-dark);
+    background-color: #003D7A;
     color: var(--bg-white);
     padding: var(--spacing-2xl) var(--spacing-lg);
 }
@@ -753,7 +769,7 @@ button {
 }
 
 .footer-section a:hover {
-    color: var(--primary-color);
+    color: #89c4ff;
 }
 
 .social-links {
@@ -774,7 +790,7 @@ button {
 }
 
 .social-links a:hover {
-    background-color: var(--primary-color);
+    background-color: #0052CC;
     transform: translateY(-3px);
 }
 
