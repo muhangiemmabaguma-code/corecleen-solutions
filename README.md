@@ -1,6 +1,9 @@
 # CoreCleen Solutions Ltd
 
 Professional cleaning services website built with semantic HTML, responsive CSS, and vanilla JavaScript.
+
+**Demo Video:** [Watch the walkthrough](https://www.awesomescreenshot.com/video/50169286?key=fd0e1c9e80eab2f1ec701b82909ba737)
+
 ---
 
 ## ✨ Features
@@ -77,3 +80,6 @@ Designed for CoreCleen Solutions Ltd, Kampala, Uganda.
 
 **Author:** Muhangi Emma Baguma  
 **Contact:** muhangiemmabaguma@gmail.com
+
+
+
