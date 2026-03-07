@@ -25,28 +25,34 @@
 
     <!-- Hero Section -->
     <header class="hero">
+        <div class="hero-bg" style="background-image: url('assets/cleaning.jpg')"></div>
+        <div class="hero-overlay"></div>
         <div class="hero-wrapper">
             <div class="hero-content">
-                <h1 class="hero-title">Discover reliable <span class="accent">cleaning service</span> professionals in your area.</h1>
-                <p class="hero-subtitle">From quick repairs to full renovations — find trusted, verified professionals ready to handle any home project.</p>
+                <span class="hero-badge">Trusted by 500+ Clients in Uganda</span>
+                <h1 class="hero-title">Professional <span class="accent">Cleaning Services</span> You Can Count On</h1>
+                <p class="hero-subtitle">From office deep cleans to full home sanitization — experience spotless results with CoreCleen Solutions, Kampala's most trusted cleaning company.</p>
                 
-                <!-- Search Bar -->
-                <div class="search-bar">
-                    <div class="search-input-wrapper">
-                        <input type="text" placeholder="Address, Service type, Budget" class="search-input">
-                        <button class="search-btn">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="2"/>
-                                <path d="M12 12L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            </svg>
-                        </button>
-                    </div>
+                <div class="hero-actions">
+                    <button class="cta-button hero-cta" id="heroCta">Get a Free Quote</button>
+                    <a href="#services" class="hero-secondary-btn">Our Services →</a>
                 </div>
-            </div>
-            
-            <div class="hero-image">
-                <div class="image-placeholder">
-                    <img src="assets/cleaning.jpg" alt="Professional cleaner working">
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">13+</span>
+                        <span class="stat-label">Services</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,18 +62,22 @@
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About CoreCleen Solutions</h2>
+            <p class="section-subtitle">CoreCleen aims to build and maintain long-term client relationships, with a competitive and excellent cleaning service. The commitment to excellence and professionalism by our cleaning team is why we have earned the loyalty and trust of our regular customers.</p>
             <div class="about-content">
                 <div class="about-card">
+                    <div class="about-icon">🎯</div>
                     <h3>Our Mission</h3>
                     <p>To provide our clients with top-quality professional and friendly cleaning services that supersede their expectations. By making the interests of our clients our number one priority we will earn their trust and loyalty and they will become our lifelong customers.</p>
                 </div>
                 <div class="about-card">
+                    <div class="about-icon">🔭</div>
                     <h3>Our Vision</h3>
                     <p>To continually provide excellent services that will propel us to become a household name within the cleaning industry in Uganda.</p>
                 </div>
                 <div class="about-card">
-                    <h3>Company Goal</h3>
-                    <p>CoreCleen aims to build and maintain long-term client relationships, with a competitive and excellent cleaning service. The commitment to excellence and professionalism by our cleaning team is why we have earned the loyalty and trust of our regular customers.</p>
+                    <div class="about-icon">🏆</div>
+                    <h3>Our Promise</h3>
+                    <p>We provide the highest standard of service and workmanship, maintaining integrity and initiative with professionalism and pride in our position in the market place.</p>
                 </div>
             </div>
         </div>
@@ -140,54 +150,88 @@
         </div>
     </section>
 
-    <!-- Services Category Section -->
+    <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">Select Service Category</h2>
-            <div class="services-carousel">
-                <div class="service-category-card">
-                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M24 4L28 12H36L30 16L32 28L24 24L16 28L18 16L12 12H20L24 4Z" fill="currentColor"/>
-                    </svg>
-                    <span class="service-count">24</span>
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">At CoreCleen, we are passionate about delivering spotless results across every space.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
                     <h4>Office Cleaning</h4>
+                    <p>Keep your workspace pristine and productive with regular professional cleaning.</p>
                 </div>
-                
-                <div class="service-category-card featured">
-                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="8" y="12" width="32" height="28" rx="2" fill="currentColor"/>
-                        <path d="M12 12V8C12 6.9 12.9 6 14 6H34C35.1 6 36 6.9 36 8V12" fill="currentColor" opacity="0.5"/>
-                    </svg>
-                    <span class="service-count">18</span>
-                    <h4>Deep Cleaning</h4>
+                <div class="service-card featured-service">
+                    <div class="service-icon">✨</div>
+                    <h4>Full Home Deep Cleaning</h4>
+                    <p>Thorough top-to-bottom deep clean for every corner of your home.</p>
                 </div>
-                
-                <div class="service-category-card">
-                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2"/>
-                        <path d="M24 14V24L32 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                    </svg>
-                    <span class="service-count">15</span>
-                    <h4>Window Cleaning</h4>
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h4>Full Home Basic Cleaning</h4>
+                    <p>Regular maintenance cleaning to keep your home fresh and tidy.</p>
                 </div>
-                
-                <div class="service-category-card">
-                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10 40H38C39.1 40 40 39.1 40 38V10H8V38C8 39.1 8.9 40 10 40Z" fill="currentColor" opacity="0.7"/>
-                        <rect x="14" y="4" width="20" height="6" fill="currentColor"/>
-                    </svg>
-                    <span class="service-count">12</span>
-                    <h4>Commercial</h4>
+                <div class="service-card">
+                    <div class="service-icon">🏭</div>
+                    <h4>Commercial Deep Cleaning</h4>
+                    <p>Industrial-grade cleaning for commercial properties and businesses.</p>
                 </div>
-
-                <div class="service-category-card">
-                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 20H40V40H8Z" fill="currentColor" opacity="0.6"/>
-                        <path d="M12 10L24 4L36 10" stroke="currentColor" stroke-width="2" fill="none"/>
-                    </svg>
-                    <span class="service-count">9</span>
+                <div class="service-card">
+                    <div class="service-icon">🦟</div>
+                    <h4>Fumigation</h4>
+                    <p>Eliminate pests and create a safe, healthy environment for your space.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h4>Move-in/Move-out Cleaning</h4>
+                    <p>Start fresh in your new space or leave your old one spotless.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏗️</div>
+                    <h4>Post Construction Cleaning</h4>
+                    <p>Remove dust, debris and construction residue from your new build.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🗑️</div>
+                    <h4>Garbage Collection</h4>
+                    <p>Reliable waste collection and disposal services for homes and offices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏚️</div>
                     <h4>Roof Cleaning</h4>
+                    <p>Restore your roof's appearance and prevent damage from moss and grime.</p>
                 </div>
+                <div class="service-card">
+                    <div class="service-icon">🪟</div>
+                    <h4>Window Cleaning</h4>
+                    <p>Crystal-clear windows inside and out for maximum natural light.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛒</div>
+                    <h4>Retail Cleaning</h4>
+                    <p>Maintain a welcoming shopping environment for your customers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛋️</div>
+                    <h4>Upholstery Cleaning</h4>
+                    <p>Deep clean sofas, chairs and fabric to restore freshness and colour.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔑</div>
+                    <h4>End of Tenancy Cleaning</h4>
+                    <p>Ensure your deposit return with a thorough end-of-lease clean.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner-content">
+                <h2>Unwind in a Clean & Spotless Space!</h2>
+                <p>After a long & tiring day, nothing beats coming home to a clean and spotless space. You've earned it.</p>
+                <button class="cta-button" id="bannerCta">Book a Cleaning Today</button>
             </div>
         </div>
     </section>
@@ -311,14 +355,18 @@
     <section id="team" class="team">
         <div class="container">
             <h2 class="section-title">Meet Our Team</h2>
+            <p class="section-subtitle">Meet the team putting in the hours to give you excellent and professional services.</p>
             <div class="team-grid">
                 <!-- Team Member 1 -->
                 <article class="team-member">
                     <div class="member-avatar">
                         <img src="assets/lalih.jpg" alt="Leilah Kayemba, Managing Director">
                     </div>
-                    <h4>Leilah Kayemba</h4>
-                    <p>Managing Director</p>
+                    <div class="member-info">
+                        <h4>Leilah Kayemba</h4>
+                        <p class="member-role">Managing Director</p>
+                        <p class="member-desc">Leading CoreCleen with vision, passion and commitment to excellence.</p>
+                    </div>
                 </article>
 
                 <!-- Team Member 2 -->
@@ -326,8 +374,11 @@
                     <div class="member-avatar">
                         <img src="assets/joshua.jpg" alt="Joshua Besigye, Operations Officer">
                     </div>
-                    <h4>Joshua Besigye</h4>
-                    <p>Operations Officer</p>
+                    <div class="member-info">
+                        <h4>Joshua Besigye</h4>
+                        <p class="member-role">Operations Officer</p>
+                        <p class="member-desc">Ensuring every cleaning operation runs smoothly and on time.</p>
+                    </div>
                 </article>
 
                 <!-- Team Member 3 -->
@@ -335,8 +386,11 @@
                     <div class="member-avatar">
                         <img src="assets/bernad1.jpg" alt="Bernard Mabonga, Company Secretary">
                     </div>
-                    <h4>Bernard Mabonga</h4>
-                    <p>Company Secretary</p>
+                    <div class="member-info">
+                        <h4>Bernard Mabonga</h4>
+                        <p class="member-role">Company Secretary</p>
+                        <p class="member-desc">Managing corporate affairs and client communications with care.</p>
+                    </div>
                 </article>
 
                 <!-- Team Member 4 -->
@@ -344,8 +398,11 @@
                     <div class="member-avatar">
                         <img src="assets/mary.jpg" alt="Mary Caroline Nakyazze, Accountant">
                     </div>
-                    <h4>Mary Caroline Nakyazze</h4>
-                    <p>Accountant</p>
+                    <div class="member-info">
+                        <h4>Mary Caroline Nakyazze</h4>
+                        <p class="member-role">Accountant</p>
+                        <p class="member-desc">Keeping the books balanced and the business running efficiently.</p>
+                    </div>
                 </article>
             </div>
         </div>
@@ -355,9 +412,10 @@
     <footer id="footer" class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
+                <div class="footer-section footer-brand">
+                    <img src="images/logo.png" alt="CoreCleen Solutions Logo" class="footer-logo">
                     <h3>CoreCleen Solutions Ltd</h3>
-                    <p>Professional cleaning services providing excellence and professionalism across Uganda.</p>
+                    <p>Professional cleaning services providing excellence and professionalism across Uganda. Let us take care of your cleaning needs while you concentrate on running your business.</p>
                 </div>
                 <div class="footer-section">
                     <h4>Contact Us</h4>
@@ -386,7 +444,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 CoreCleen Solutions Ltd. All rights reserved.</p>
+                <p>&copy; 2026 CoreCleen Solutions Ltd. All rights reserved. | www.corecleensolutions.com</p>
             </div>
         </div>
     </footer>

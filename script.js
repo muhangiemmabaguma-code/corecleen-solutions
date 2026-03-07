@@ -51,11 +51,20 @@ scrollToTopBtn.addEventListener('click', () => {
 // MODAL FUNCTIONALITY
 // ===========================
 
-// Open modal when CTA button is clicked
-ctaButton.addEventListener('click', () => {
+// Helper function to open modal
+function openModal() {
     signupModal.classList.add('active');
-    document.body.style.overflow = 'hidden'; // Prevent scrolling
-});
+    document.body.style.overflow = 'hidden';
+}
+
+// Open modal when CTA button is clicked
+ctaButton.addEventListener('click', openModal);
+
+// Wire up hero CTA and banner CTA buttons
+const heroCta = document.getElementById('heroCta');
+const bannerCta = document.getElementById('bannerCta');
+if (heroCta) heroCta.addEventListener('click', openModal);
+if (bannerCta) bannerCta.addEventListener('click', openModal);
 
 // Close modal when close button is clicked
 closeModalBtn.addEventListener('click', () => {
